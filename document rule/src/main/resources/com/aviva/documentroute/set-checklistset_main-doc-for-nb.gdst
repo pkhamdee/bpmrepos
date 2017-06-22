@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>ValidateDocTrx_main-doc-for-NB</tableName>
+  <tableName>set-checklistset_main-doc-for-nb</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
@@ -105,7 +105,6 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
