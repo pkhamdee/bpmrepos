@@ -5,8 +5,7 @@ import java.lang.Number;
 rule "test2"
 	dialect "mvel"
 	when
-		DocTrxGroup( name == "MAIN-DOCUMENT-FOR-PS" , )
-		CheckList( name == "CLAIM_MAIN_PROCESS_EXIST" )
+		( DocTrxGroup( name == "MAIN-DOCUMENT-FOR-PS" ) or CheckList( name == "CONTRACT_CREATED" , value == "NO" ) )
 	then
 		DocumentRoute fact0 = new DocumentRoute();
 		fact0.setReturnReason( "SC" );
