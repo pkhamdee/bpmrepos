@@ -6,7 +6,9 @@ rule "test2"
 	dialect "mvel"
 	when
 		DocTrxGroup( name == "MAIN-DOCUMENT-FOR-PS" )
-		( CheckList( name == "CLAIM_MAIN_PROCESS_EXIST" ) )
+		CheckList( name == "CLAIM_MAIN_PROCESS_EXIST" )
 	then
-		System.out.println("hello");
+		DocumentRoute fact0 = new DocumentRoute();
+		fact0.setReturnReason( "SC" );
+		insert( fact0 );
 end
