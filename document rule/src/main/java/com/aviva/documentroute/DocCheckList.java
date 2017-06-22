@@ -9,8 +9,26 @@ public class DocCheckList implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   private java.util.List<com.aviva.documentroute.CheckList> checkList;
+
    public DocCheckList()
    {
+   }
+
+   public java.util.List<com.aviva.documentroute.CheckList> getCheckList()
+   {
+      return this.checkList;
+   }
+
+   public void setCheckList(
+         java.util.List<com.aviva.documentroute.CheckList> checkList)
+   {
+      this.checkList = checkList;
+   }
+
+   public DocCheckList(java.util.List<com.aviva.documentroute.CheckList> checkList)
+   {
+      this.checkList = checkList;
    }
 
 }
