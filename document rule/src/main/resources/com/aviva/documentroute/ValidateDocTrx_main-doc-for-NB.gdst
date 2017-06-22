@@ -60,7 +60,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>104</width>
+      <width>107</width>
       <header>Check list set name</header>
       <factType>DocTrxGroup</factType>
       <boundName>docTrxGrp</boundName>
