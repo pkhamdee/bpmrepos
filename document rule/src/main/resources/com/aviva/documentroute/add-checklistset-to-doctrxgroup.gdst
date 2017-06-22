@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>add-checklistset_to_doctrxgroup</tableName>
+  <tableName>add-checklistset-to-doctrxgroup</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
