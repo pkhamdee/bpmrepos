@@ -14,6 +14,8 @@ public class DocumentRoute implements java.io.Serializable
 
    private com.aviva.documentroute.DocCheckList docCheckList;
 
+   private com.aviva.documentroute.RouteInfo routeInfo;
+
    public DocumentRoute()
    {
    }
@@ -48,13 +50,25 @@ public class DocumentRoute implements java.io.Serializable
       this.docCheckList = docCheckList;
    }
 
+   public com.aviva.documentroute.RouteInfo getRouteInfo()
+   {
+      return this.routeInfo;
+   }
+
+   public void setRouteInfo(com.aviva.documentroute.RouteInfo routeInfo)
+   {
+      this.routeInfo = routeInfo;
+   }
+
    public DocumentRoute(java.lang.String docTypeCd,
          java.lang.String transactionTypeCd,
-         com.aviva.documentroute.DocCheckList docCheckList)
+         com.aviva.documentroute.DocCheckList docCheckList,
+         com.aviva.documentroute.RouteInfo routeInfo)
    {
       this.docTypeCd = docTypeCd;
       this.transactionTypeCd = transactionTypeCd;
       this.docCheckList = docCheckList;
+      this.routeInfo = routeInfo;
    }
 
 }
