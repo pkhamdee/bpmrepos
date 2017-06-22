@@ -11,6 +11,8 @@ public class Action implements java.io.Serializable
 
    private java.lang.String actionType;
 
+   private java.util.List<com.aviva.documentroute.Property> properties;
+
    public Action()
    {
    }
@@ -25,9 +27,22 @@ public class Action implements java.io.Serializable
       this.actionType = actionType;
    }
 
-   public Action(java.lang.String actionType)
+   public java.util.List<com.aviva.documentroute.Property> getProperties()
+   {
+      return this.properties;
+   }
+
+   public void setProperties(
+         java.util.List<com.aviva.documentroute.Property> properties)
+   {
+      this.properties = properties;
+   }
+
+   public Action(java.lang.String actionType,
+         java.util.List<com.aviva.documentroute.Property> properties)
    {
       this.actionType = actionType;
+      this.properties = properties;
    }
 
 }
