@@ -12,6 +12,8 @@ public class Document implements java.io.Serializable
    private java.lang.String docTypeCd;
    private java.lang.String transactionTypeCd;
 
+   private com.aviva.documentroute.DocCheckList docCheckList;
+
    public Document()
    {
    }
@@ -36,11 +38,22 @@ public class Document implements java.io.Serializable
       this.transactionTypeCd = transactionTypeCd;
    }
 
-   public Document(java.lang.String docTypeCd,
-         java.lang.String transactionTypeCd)
+   public com.aviva.documentroute.DocCheckList getDocCheckList()
+   {
+      return this.docCheckList;
+   }
+
+   public void setDocCheckList(com.aviva.documentroute.DocCheckList docCheckList)
+   {
+      this.docCheckList = docCheckList;
+   }
+
+   public Document(java.lang.String docTypeCd, java.lang.String transactionTypeCd,
+         com.aviva.documentroute.DocCheckList docCheckList)
    {
       this.docTypeCd = docTypeCd;
       this.transactionTypeCd = transactionTypeCd;
+      this.docCheckList = docCheckList;
    }
 
 }
