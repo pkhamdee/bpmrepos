@@ -55,7 +55,7 @@
   <actionCols>
     <insert-fact-column52>
       <typedDefaultValue>
-        <valueString>MAIN-DOCUMENT-FOR-NB</valueString>
+        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -101,34 +101,5 @@
   </imports>
   <packageName>com.aviva.documentroute</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
-  <data>
-    <list>
-      <value>
-        <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>PROPOSAL</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>PROPOSAL-FORM</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>MAIN-DOCUMENT-FOR-NB</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-    </list>
-  </data>
+  <data/>
 </decision-table52>
