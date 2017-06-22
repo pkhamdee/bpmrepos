@@ -5,5 +5,8 @@ import java.lang.Number;
 rule "test2"
 	dialect "mvel"
 	when
+		DocTrxGroup( name == "MAIN-DOCUMENT-FOR-PS" , )
+		CheckList( name == "CONTRACT_CREATED" , value == "NO" , )
+		CheckList( name == "POLICY_STATUS" , value in ( "PS", "UW" ) )
 	then
 end
