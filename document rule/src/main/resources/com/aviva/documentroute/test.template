@@ -103,7 +103,11 @@
       </window>
     </fact>
   </lhs>
-  <rhs/>
+  <rhs>
+    <freeForm>
+      <text>System.out.println(&quot;hello&quot;);</text>
+    </freeForm>
+  </rhs>
   <imports>
     <imports/>
   </imports>
