@@ -9,6 +9,7 @@ public class Action implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Description("valid value is TRIGGER OR  JOIN")
    private java.lang.String actionType;
 
    private java.util.List<com.aviva.documentroute.Property> properties;
