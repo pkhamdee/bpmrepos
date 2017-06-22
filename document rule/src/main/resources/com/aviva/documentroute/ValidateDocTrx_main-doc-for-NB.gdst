@@ -55,17 +55,17 @@
   <actionCols>
     <insert-fact-column52>
       <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <valueString>MAIN-DOCUMENT-FOR-NB</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Validity</header>
-      <factType>DocumentTypeSatisfy</factType>
-      <boundName>satisfy</boundName>
-      <factField>satisfy</factField>
-      <type>Boolean</type>
+      <width>104</width>
+      <header>Check list set name</header>
+      <factType>DocTrxGroup</factType>
+      <boundName>docTrxGrp</boundName>
+      <factField>name</factField>
+      <type>String</type>
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
   </actionCols>
@@ -125,9 +125,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <valueString>MAIN-DOCUMENT-FOR-NB</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
