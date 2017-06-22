@@ -6,7 +6,7 @@ rule "test2"
 	dialect "mvel"
 	when
 		DocTrxGroup( name == "MAIN-DOCUMENT-FOR-PS" )
-		( CheckList( name == "CONTRACT_CREATED" , value == "NO" ) )
+		( CheckList( name == "CLAIM_MAIN_PROCESS_EXIST" ) )
 	then
 		System.out.println("hello");
 end
