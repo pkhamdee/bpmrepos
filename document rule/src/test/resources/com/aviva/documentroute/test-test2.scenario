@@ -53,6 +53,18 @@
       <executionTimeResult>36</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>returnReason</fieldName>
+          <expected>SC</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>DocumentRoute</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <lastRunResult>2017-06-22 09:45:38.697 UTC</lastRunResult>
   <rules/>
