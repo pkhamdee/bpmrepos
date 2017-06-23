@@ -168,7 +168,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-NP</valueString>
+        <valueString>MAIN-DOC-NB</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -211,7 +211,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
