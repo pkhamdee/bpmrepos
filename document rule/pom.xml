@@ -6,7 +6,7 @@
   <artifactId>documentroute</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>document rule</name>
+  <name>DocumentRouting</name>
   <dependencies>
     <dependency>
       <groupId>com.aviva.ezflow</groupId>
