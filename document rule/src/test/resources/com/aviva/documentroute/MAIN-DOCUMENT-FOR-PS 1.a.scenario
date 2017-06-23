@@ -33,8 +33,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>35</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>50</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -42,8 +42,8 @@
           <fieldName>actionType</fieldName>
           <expected>JOIN_PROCESS</expected>
           <actualResult>No match</actualResult>
-          <successResult>false</successResult>
-          <explanation>Fact of type [Action] was not found in the results.</explanation>
+          <successResult>true</successResult>
+          <explanation>[Action] field [actionType] was [JOIN_PROCESS].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -57,8 +57,8 @@
           <fieldName>name</fieldName>
           <expected>PROCESS_NAME</expected>
           <actualResult>No match</actualResult>
-          <successResult>false</successResult>
-          <explanation>Fact of type [Property] was not found in the results.</explanation>
+          <successResult>true</successResult>
+          <explanation>[Property] field [name] was [PROCESS_NAME].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -66,8 +66,8 @@
           <fieldName>value</fieldName>
           <expected>NB Main Process</expected>
           <actualResult>No match</actualResult>
-          <successResult>false</successResult>
-          <explanation>Fact of type [Property] was not found in the results.</explanation>
+          <successResult>true</successResult>
+          <explanation>[Property] field [value] was [NB Main Process].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -76,7 +76,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-23 03:09:25.51 UTC</lastRunResult>
+  <lastRunResult>2017-06-23 03:11:41.957 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
