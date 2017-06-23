@@ -75,6 +75,21 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
+            <dataType>BOOLEAN</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>Is policy on hold</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>isPolicyOnHold</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
             <dataType>NUMERIC_INTEGER</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
@@ -128,21 +143,6 @@
           <header>Is PS process exist?</header>
           <constraintValueType>1</constraintValueType>
           <factField>isPSProcessExist</factField>
-          <fieldType>Boolean</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>BOOLEAN</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>Is policy on hold</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>isPolicyOnHold</factField>
           <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
@@ -263,6 +263,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -273,11 +278,6 @@
       </value>
       <value>
         <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -333,6 +333,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -349,11 +354,6 @@
       </value>
       <value>
         <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -403,17 +403,17 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
