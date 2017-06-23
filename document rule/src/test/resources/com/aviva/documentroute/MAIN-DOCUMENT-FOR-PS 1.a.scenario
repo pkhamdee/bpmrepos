@@ -23,12 +23,17 @@
           <value>true</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>isNBProcessExist</name>
+          <value>true</value>
+          <nature>1</nature>
+        </field-data>
       </fieldData>
       <name>condition</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>36</executionTimeResult>
+      <executionTimeResult>78</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -36,6 +41,9 @@
         <expect-field>
           <fieldName>actionType</fieldName>
           <expected>JOIN_PROCESS</expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Action] was not found in the results.</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -48,21 +56,27 @@
         <expect-field>
           <fieldName>name</fieldName>
           <expected>PROCESS_NAME</expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Property] was not found in the results.</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>value</fieldName>
           <expected>NB Main Process</expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Property] was not found in the results.</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Property</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-22 09:45:38.697 UTC</lastRunResult>
+  <lastRunResult>2017-06-23 03:08:58.958 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
