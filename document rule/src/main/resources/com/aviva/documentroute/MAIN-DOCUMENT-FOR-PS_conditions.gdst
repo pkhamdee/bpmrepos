@@ -18,7 +18,7 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
-            <valueString></valueString>
+            <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
             <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
@@ -33,6 +33,7 @@
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
