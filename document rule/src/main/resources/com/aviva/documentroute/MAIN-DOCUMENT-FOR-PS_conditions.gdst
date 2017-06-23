@@ -154,6 +154,36 @@
       <type>String</type>
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Name1</header>
+      <factType>Property</factType>
+      <boundName>prop1</boundName>
+      <factField>name</factField>
+      <type>String</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Value1</header>
+      <factType>Property</factType>
+      <boundName>prop1</boundName>
+      <factField>value</factField>
+      <type>String</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
