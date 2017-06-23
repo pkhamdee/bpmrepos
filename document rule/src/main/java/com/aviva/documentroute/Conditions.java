@@ -21,6 +21,8 @@ public class Conditions implements java.io.Serializable
    private java.lang.Boolean isPSProcessExist;
    private java.lang.Boolean isClaimProcessExist;
 
+   private java.lang.Boolean isPolicyOnHold;
+
    public Conditions()
    {
    }
@@ -136,6 +138,16 @@ public class Conditions implements java.io.Serializable
       this.isClaimProcessExist = isClaimProcessExist;
    }
 
+   public java.lang.Boolean getIsPolicyOnHold()
+   {
+      return this.isPolicyOnHold;
+   }
+
+   public void setIsPolicyOnHold(java.lang.Boolean isPolicyOnHold)
+   {
+      this.isPolicyOnHold = isPolicyOnHold;
+   }
+
    public Conditions(java.lang.String policyStatus,
          java.lang.Boolean isContractCreated, java.lang.Integer dispatchDate,
          java.lang.Boolean isPolicyAckReceived,
@@ -144,7 +156,7 @@ public class Conditions implements java.io.Serializable
          java.lang.Boolean isIncidentReceived,
          java.lang.Boolean isCCNeedSupport, java.lang.Boolean isNBProcessExist,
          java.lang.Boolean isPSProcessExist,
-         java.lang.Boolean isClaimProcessExist)
+         java.lang.Boolean isClaimProcessExist, java.lang.Boolean isPolicyOnHold)
    {
       this.policyStatus = policyStatus;
       this.isContractCreated = isContractCreated;
@@ -157,6 +169,7 @@ public class Conditions implements java.io.Serializable
       this.isNBProcessExist = isNBProcessExist;
       this.isPSProcessExist = isPSProcessExist;
       this.isClaimProcessExist = isClaimProcessExist;
+      this.isPolicyOnHold = isPolicyOnHold;
    }
 
 }
