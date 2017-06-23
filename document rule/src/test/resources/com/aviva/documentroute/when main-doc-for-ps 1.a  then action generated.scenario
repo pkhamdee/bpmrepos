@@ -1,5 +1,5 @@
 <scenario>
-  <name>MAIN-DOCUMENT-FOR-PS 1.a.scenario</name>
+  <name>when main-doc-for-ps 1.a  then action generated.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
