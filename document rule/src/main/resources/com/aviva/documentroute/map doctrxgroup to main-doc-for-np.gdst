@@ -105,6 +105,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -124,7 +125,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -132,6 +133,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -151,7 +153,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
