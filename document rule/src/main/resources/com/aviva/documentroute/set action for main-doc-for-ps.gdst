@@ -52,7 +52,8 @@
           <width>-1</width>
           <header>Is contract created</header>
           <constraintValueType>1</constraintValueType>
-          <factField>isContractCreated</factField>
+          <factField>contractCreated</factField>
+          <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -81,7 +82,8 @@
           <width>-1</width>
           <header>Is policy on hold</header>
           <constraintValueType>1</constraintValueType>
-          <factField>isPolicyOnHold</factField>
+          <factField>policyOnHold</factField>
+          <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -125,7 +127,8 @@
           <width>-1</width>
           <header>Is NB process exist?</header>
           <constraintValueType>1</constraintValueType>
-          <factField>isNBProcessExist</factField>
+          <factField>nBProcessExist</factField>
+          <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -139,7 +142,8 @@
           <width>-1</width>
           <header>Is PS process exist?</header>
           <constraintValueType>1</constraintValueType>
-          <factField>isPSProcessExist</factField>
+          <factField>pSProcessExist</factField>
+          <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
