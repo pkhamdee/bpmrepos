@@ -68,7 +68,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>policyStatus</factField>
           <fieldType>String</fieldType>
-          <operator>==</operator>
+          <operator>in</operator>
           <parameters/>
         </condition-column52>
         <condition-column52>
