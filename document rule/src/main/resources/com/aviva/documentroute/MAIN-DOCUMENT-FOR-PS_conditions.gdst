@@ -109,7 +109,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>Is NB process exist</header>
+          <header>Is NB process exist?</header>
           <constraintValueType>1</constraintValueType>
           <factField>isNBProcessExist</factField>
           <fieldType>Boolean</fieldType>
@@ -124,7 +124,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>is PS process exist</header>
+          <header>Is PS process exist?</header>
           <constraintValueType>1</constraintValueType>
           <factField>isPSProcessExist</factField>
           <fieldType>Boolean</fieldType>
@@ -133,11 +133,28 @@
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
   </conditionPatterns>
-  <actionCols/>
+  <actionCols>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Action Type</header>
+      <factType>Action</factType>
+      <boundName>action</boundName>
+      <factField>actionType</factField>
+      <type>String</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
