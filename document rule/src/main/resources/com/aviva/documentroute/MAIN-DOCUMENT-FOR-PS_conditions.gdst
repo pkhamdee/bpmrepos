@@ -146,7 +146,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>104</width>
       <header>Action Type</header>
       <factType>Action</factType>
       <boundName>action</boundName>
@@ -161,7 +161,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>120</width>
       <header>Name1</header>
       <factType>Property</factType>
       <boundName>prop1</boundName>
@@ -269,17 +269,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>test</valueString>
+        <valueString>JOIN_PROCESS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>test</valueString>
+        <valueString>PROCESS_NAME</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>test</valueString>
+        <valueString>NB Main Process</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
