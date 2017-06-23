@@ -27,7 +27,6 @@
           <header>Group Name</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -143,7 +142,14 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.aviva.ezflow.model.documentroute.CheckList</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.aviva.ezflow.model.documentroute.DocTrxGroup</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>com.aviva.documentroute</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
