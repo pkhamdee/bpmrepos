@@ -1,5 +1,5 @@
 <scenario>
-  <name>test-test2.scenario</name>
+  <name>MAIN-DOCUMENT-FOR-PS 1.a.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -16,37 +16,15 @@
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
-      <type>CheckList</type>
+      <type>Conditions</type>
       <fieldData>
         <field-data>
-          <name>name</name>
-          <value>CONTRACT_CREATED</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>value</name>
-          <value>NO</value>
-          <nature>4</nature>
+          <name>isContractCreated</name>
+          <value>true</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
-      <name>ch1</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
-      <type>CheckList</type>
-      <fieldData>
-        <field-data>
-          <name>name</name>
-          <value>POLICY_STATUS</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>value</name>
-          <value>PS</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>ch2</name>
+      <name>condition</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
@@ -56,13 +34,31 @@
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>returnReason</fieldName>
-          <expected>SC</expected>
+          <fieldName>actionType</fieldName>
+          <expected>JOIN_PROCESS</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>Action</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>name</fieldName>
+          <expected>PROCESS_NAME</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>value</fieldName>
+          <expected>NB Main Process</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
       </fieldValues>
-      <name>DocumentRoute</name>
+      <name>Property</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
