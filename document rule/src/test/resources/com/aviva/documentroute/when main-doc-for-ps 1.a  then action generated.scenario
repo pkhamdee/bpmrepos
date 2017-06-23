@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>MAIN-DOCUMENT-FOR-PS</value>
+          <value>MAIN-DOC-FOR-PS</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -19,14 +19,14 @@
       <type>Conditions</type>
       <fieldData>
         <field-data>
-          <name>isContractCreated</name>
+          <name>contractCreated</name>
           <value>true</value>
-          <nature>4</nature>
+          <nature>1</nature>
         </field-data>
         <field-data>
-          <name>isNBProcessExist</name>
+          <name>nBProcessExist</name>
           <value>true</value>
-          <nature>4</nature>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>condition</name>
@@ -76,7 +76,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-23 06:52:08.331 UTC</lastRunResult>
+  <lastRunResult>2017-06-23 07:24:46.459 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
