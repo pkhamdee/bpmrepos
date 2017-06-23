@@ -260,7 +260,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -329,7 +329,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -399,7 +399,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOCUMENT-FOR-PS</valueString>
+        <valueString>MAIN-DOC-FOR-PS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
