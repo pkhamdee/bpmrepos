@@ -21,6 +21,8 @@ public class Conditions implements java.io.Serializable
    private java.lang.Boolean isPSProcessExist;
    private java.lang.Boolean isClaimProcessExist;
 
+   private java.lang.String contractStatus;
+
    public Conditions()
    {
    }
@@ -136,17 +138,25 @@ public class Conditions implements java.io.Serializable
       this.isClaimProcessExist = isClaimProcessExist;
    }
 
+   public java.lang.String getContractStatus()
+   {
+      return this.contractStatus;
+   }
+
+   public void setContractStatus(java.lang.String contractStatus)
+   {
+      this.contractStatus = contractStatus;
+   }
+
    public Conditions(java.lang.String policyStatus,
-         java.lang.Boolean isContractCreated,
-         java.lang.Integer dispatchDate,
+         java.lang.Boolean isContractCreated, java.lang.Integer dispatchDate,
          java.lang.Boolean isPolicyAckReceived,
          java.lang.Boolean isPolicyHolderReceived,
          java.lang.Boolean isCompliantReceived,
          java.lang.Boolean isIncidentReceived,
-         java.lang.Boolean isCCNeedSupport,
-         java.lang.Boolean isNBProcessExist,
+         java.lang.Boolean isCCNeedSupport, java.lang.Boolean isNBProcessExist,
          java.lang.Boolean isPSProcessExist,
-         java.lang.Boolean isClaimProcessExist)
+         java.lang.Boolean isClaimProcessExist, java.lang.String contractStatus)
    {
       this.policyStatus = policyStatus;
       this.isContractCreated = isContractCreated;
@@ -159,6 +169,7 @@ public class Conditions implements java.io.Serializable
       this.isNBProcessExist = isNBProcessExist;
       this.isPSProcessExist = isPSProcessExist;
       this.isClaimProcessExist = isClaimProcessExist;
+      this.contractStatus = contractStatus;
    }
 
 }
