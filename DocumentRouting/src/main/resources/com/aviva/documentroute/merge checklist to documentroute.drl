@@ -14,7 +14,5 @@ when
 then
     $docCheckList.checkList = $items;
     System.out.println($docCheckList.checkList.size);
-   // DocCheckList docCheckList = new DocCheckList();
-   // docCheckList.setDocCheckList($checkLists);
-   // $docRoute.setDocCheckList(docCheckList);
+
 end
