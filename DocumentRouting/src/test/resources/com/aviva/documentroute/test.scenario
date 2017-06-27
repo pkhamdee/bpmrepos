@@ -16,14 +16,14 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>4</executionTimeResult>
+      <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>actionType</fieldName>
-          <expected>REOPEN</expected>
+          <expected>TRIGGER</expected>
           <actualResult>No match</actualResult>
           <successResult>false</successResult>
           <explanation>Fact of type [Action] was not found in the results.</explanation>
@@ -35,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-27 21:06:48.357 UTC</lastRunResult>
+  <lastRunResult>2017-06-27 21:07:32.825 UTC</lastRunResult>
   <rules>
     <string>Row 1 test</string>
     <string>Row 2 test</string>
