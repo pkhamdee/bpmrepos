@@ -53,7 +53,6 @@
           <header>name1</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -68,7 +67,6 @@
           <header>value1</header>
           <constraintValueType>1</constraintValueType>
           <factField>value</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -89,11 +87,10 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>133</width>
           <header>name2</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -108,7 +105,6 @@
           <header>value2</header>
           <constraintValueType>1</constraintValueType>
           <factField>value</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -235,22 +231,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>POLICY_STATUS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>YES</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>CONTRACT_CREATED</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>YES</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
