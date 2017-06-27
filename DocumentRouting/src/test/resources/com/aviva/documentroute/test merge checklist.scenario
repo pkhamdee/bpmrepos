@@ -45,20 +45,26 @@
       <name>item3</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>53</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>checkList</fieldName>
           <expected>null</expected>
+          <successResult>true</successResult>
+          <explanation>[docCheckList] field [checkList] was not [null].</explanation>
           <operator>!=</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>docCheckList</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-06-27 05:00:14.417 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
