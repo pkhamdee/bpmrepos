@@ -9,7 +9,7 @@ rule "merge checklist to documentroute"
 when
     $docRoute : DocumentRoute
     $checkLists : ArrayList( size > 0 )
-              from collect( CheckList( name != null) )
+              from ( CheckList( name != null) )
 then
     DocCheckList docCheckList = new DocCheckList();
     docCheckList.setDocCheckList($checkLists);
