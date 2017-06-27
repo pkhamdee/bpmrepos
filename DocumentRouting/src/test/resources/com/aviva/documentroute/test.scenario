@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>MAIN-DOC-PS</value>
+          <value>MAIN-DOC-NB</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -69,9 +69,12 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-27 21:00:39.815 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <lastRunResult>2017-06-27 21:02:40.704 UTC</lastRunResult>
+  <rules>
+    <string>Row 1 test</string>
+    <string>Row 2 test</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
   <imports>
     <imports>
