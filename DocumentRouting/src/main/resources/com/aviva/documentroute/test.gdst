@@ -53,7 +53,6 @@
           <header>name1</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -68,7 +67,6 @@
           <header>value1</header>
           <constraintValueType>1</constraintValueType>
           <factField>value</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -77,96 +75,6 @@
         <parameters/>
       </window>
     </Pattern52>
-    <Pattern52>
-      <factType>CheckList</factType>
-      <boundName>ch2</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>133</width>
-          <header>name2</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>name</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>value2</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>value</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-    </Pattern52>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>aaa</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FromCollectCompositeFactPattern>
-          <expression>
-            <parts/>
-            <index>2147483647</index>
-          </expression>
-          <rightPattern class="org.drools.workbench.models.datamodel.rule.FactPattern">
-            <constraintList>
-              <constraints>
-                <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                  <value>POLICY_STATUS</value>
-                  <operator>==</operator>
-                  <constraintValueType>4</constraintValueType>
-                  <expression>
-                    <parts/>
-                    <index>2147483647</index>
-                  </expression>
-                  <parameters/>
-                  <factType>CheckList</factType>
-                  <fieldName>name</fieldName>
-                  <fieldType>String</fieldType>
-                </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-              </constraints>
-            </constraintList>
-            <factType>CheckList</factType>
-            <isNegated>false</isNegated>
-            <window>
-              <parameters/>
-            </window>
-          </rightPattern>
-        </org.drools.workbench.models.datamodel.rule.FromCollectCompositeFactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>aaa</header>
-          <constraintValueType>1</constraintValueType>
-          <fieldType>Boolean</fieldType>
-          <parameters/>
-          <varName></varName>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
     <insert-fact-column52>
@@ -295,22 +203,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>TRIGGER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -344,29 +236,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>CONTRACT_CREATED</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>YES</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
