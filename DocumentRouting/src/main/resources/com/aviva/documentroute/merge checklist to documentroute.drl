@@ -2,6 +2,7 @@ package com.aviva.documentroute;
 
 import com.aviva.ezflow.model.documentroute.CheckList;
 import com.aviva.ezflow.model.documentroute.DocumentRoute;
+import com.aviva.ezflow.model.documentroute.DocCheckList;
 import java.util.ArrayList;
 
 rule "merge checklist to documentroute"
@@ -10,5 +11,7 @@ when
     $checkLists : ArrayList( size > 0 )
               from collect( CheckList( name != null) )
 then
-    $docRoute.docCheckList = $checkLists;
+    DocCheckList docCheckList = new DocCheckList();
+    docCheckList.setDocCheckList($checkLists);
+    $docRoute.setDocCheckList(docCheckList);
 end
