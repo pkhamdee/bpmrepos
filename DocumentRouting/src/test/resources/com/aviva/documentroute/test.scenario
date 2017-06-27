@@ -52,7 +52,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-27 21:11:34.286 UTC</lastRunResult>
+  <lastRunResult>2017-06-27 21:13:20.465 UTC</lastRunResult>
   <rules>
     <string>Row 1 test</string>
     <string>Row 2 test</string>
