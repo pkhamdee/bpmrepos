@@ -107,6 +107,17 @@
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>cond.policyStatus = checkvalue;</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>policyStatus</field>
+              <value>$checkvalue</value>
+              <nature>1</nature>
+              <type>String</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+          </fieldValues>
+          <variable>cond</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
