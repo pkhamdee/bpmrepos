@@ -235,12 +235,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_STATUS</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>YES</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -288,12 +288,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_STATUS</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>YES</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
