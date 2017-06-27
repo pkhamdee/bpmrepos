@@ -8,8 +8,8 @@ import java.util.List;
 
 rule "merge checklist to documentroute"
 when
-    $docCheckList : DocCheckList
-    $item : CheckList()
+    $docCheckList : DocCheckList()
+    $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
    // DocCheckList docCheckList = new DocCheckList();
    // docCheckList.setDocCheckList($checkLists);
