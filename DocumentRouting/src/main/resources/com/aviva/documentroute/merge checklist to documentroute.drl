@@ -12,6 +12,6 @@ when
     $docCheckList : DocumentRoute.docCheckList()
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
-    $docCheckList.checkList = $items;
+   // $docCheckList.checkList = $items;
 
 end
