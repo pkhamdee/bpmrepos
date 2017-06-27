@@ -1,0 +1,9 @@
+package com.aviva.documentroute;
+
+import java.lang.Number;
+
+rule "merge checklist to documentroute"
+	dialect "mvel"
+	when
+	then
+end
