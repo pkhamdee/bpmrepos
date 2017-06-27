@@ -7,10 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 rule "merge checklist to documentroute"
+dialect "mvel"
 when
     $docCheckList : DocCheckList()
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
+    $docCheckList.checkList = $items;
    // DocCheckList docCheckList = new DocCheckList();
    // docCheckList.setDocCheckList($checkLists);
    // $docRoute.setDocCheckList(docCheckList);
