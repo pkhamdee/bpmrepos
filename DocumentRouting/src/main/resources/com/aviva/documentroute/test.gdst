@@ -134,6 +134,9 @@
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.aviva.ezflow.model.documentroute.Action</type>
       </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.aviva.ezflow.model.documentroute.DocTrxGroup</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.aviva.documentroute</packageName>
