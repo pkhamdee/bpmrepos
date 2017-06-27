@@ -241,12 +241,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CONTRACT_CREATED</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>YES</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
