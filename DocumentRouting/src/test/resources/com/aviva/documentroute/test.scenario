@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>MAIN-DOC-NB</value>
+          <value>MAIN-DOC-PS</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -49,20 +49,27 @@
       <name>ch2</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>24</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>actionType</fieldName>
           <expected>REOPEN</expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Action] was not found in the results.</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Action</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-06-27 20:59:41.557 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
