@@ -11,7 +11,7 @@ when
     $checkLists : ArrayList( size > 0 )
               from ( CheckList( name != null) )
 then
-    DocCheckList docCheckList = new DocCheckList();
-    docCheckList.setDocCheckList($checkLists);
-    $docRoute.setDocCheckList(docCheckList);
+   // DocCheckList docCheckList = new DocCheckList();
+   // docCheckList.setDocCheckList($checkLists);
+   // $docRoute.setDocCheckList(docCheckList);
 end
