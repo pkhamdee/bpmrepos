@@ -43,18 +43,25 @@
       <name>ch2</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>72</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>policyStatus</fieldName>
           <expected>PS</expected>
+          <successResult>true</successResult>
+          <explanation>[cond] field [policyStatus] was [PS].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>contractCreated</fieldName>
           <expected>true</expected>
+          <successResult>true</successResult>
+          <explanation>[cond] field [contractCreated] was [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -63,6 +70,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-06-28 08:44:40.291 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
