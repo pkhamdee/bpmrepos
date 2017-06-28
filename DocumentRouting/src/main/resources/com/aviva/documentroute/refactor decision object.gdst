@@ -81,7 +81,7 @@
       <header>add to condition</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>if(name == &apos;POLICY_STATUS&apos;) {
+          <text>if(ch1.name == &apos;POLICY_STATUS&apos;) {
   cond.policyStatus = ch1.value
 }
 
