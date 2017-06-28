@@ -66,7 +66,11 @@
       <header>add to condition</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>if(ch1.name == &apos;POLICY_STATUS&apos;) {
+          <text>if(ch1.name == &apos;DISPATCH_DATE&apos;) {
+  cond.dispatchDate = ch1.value
+}
+
+if(ch1.name == &apos;POLICY_STATUS&apos;) {
   cond.policyStatus = ch1.value
 }
 
@@ -75,6 +79,78 @@ if(ch1.name == &apos;CONTRACT_CREATED&apos;) {
      cond.contractCreated = true;
   } else {
      cond.contractCreated = false;
+  }
+}
+
+if(ch1.name == &apos;POLICY_ACK_RECEIVED&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.policyAckReceived = true;
+  } else {
+     cond.policyAckReceived = false;
+  }
+}
+
+if(ch1.name == &apos;POLICY_HOLDER_RECEIVED&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.policyHolderReceived = true;
+  } else {
+     cond.policyHolderReceived = false;
+  }
+}
+
+if(ch1.name == &apos;COMPLIANT_RECEIVED&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.compliantReceived = true;
+  } else {
+     cond.compliantReceived = false;
+  }
+}
+
+if(ch1.name == &apos;INCIDENT_RECEIVED&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.incidentReceived = true;
+  } else {
+     cond.incidentReceived = false;
+  }
+}
+
+if(ch1.name == &apos;CC_NEED_SUPPORT&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.cCNeedSupport = true;
+  } else {
+     cond.cCNeedSupport = false;
+  }
+}
+
+if(ch1.name == &apos;NB_PROCESS_EXIST&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.nBProcessExist = true;
+  } else {
+     cond.nBProcessExist = false;
+  }
+}
+
+if(ch1.name == &apos;PS_PROCESS_EXIST&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.pSProcessExist = true;
+  } else {
+     cond.pSProcessExist = false;
+  }
+}
+
+if(ch1.name == &apos;CLAIM_PROCESS_EXIST&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.claimProcessExist = true;
+  } else {
+     cond.claimProcessExist = false;
+  }
+}
+
+if(ch1.name == &apos;POLICY_ONHOLD&apos;) {
+  if(ch1.value == &apos;YES&apos;){
+     cond.policyOnHold = true;
+  } else {
+     cond.policyOnHold = false;
   }
 }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
