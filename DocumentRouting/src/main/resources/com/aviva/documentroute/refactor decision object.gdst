@@ -81,10 +81,16 @@
       <header>add to condition</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>if(checkvalue == &apos;YES&apos;) {
-cond.policyStatus = true;
-} else {
-cond.policyStatus = false;
+          <text>if(name == &apos;POLICY_STATUS&apos;) {
+  cond.policyStatus = checkvalue;
+}
+
+if(name == &apos;CONTRACT_CREATED&apos;) {
+  if(checkvalue == &apos;YES&apos;){
+     cond.contractCreated = true;
+  } else {
+     cond.contractCreated = false;
+  }
 }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
