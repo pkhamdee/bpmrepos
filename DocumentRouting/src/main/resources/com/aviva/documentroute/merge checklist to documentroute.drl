@@ -10,9 +10,9 @@ rule "merge checklist to documentroute"
 dialect "mvel"
 salience -99
 when
-    $docRoute : DocumentRoute(this != null, $docCheckList : docCheckList)
+    $docRoute : DocumentRoute(this != null)
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
-    $docCheckList.checkList = $items;
+    $docRoute.docCheckList.checkList = $items;
 
 end
