@@ -82,11 +82,11 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>if(name == &apos;POLICY_STATUS&apos;) {
-  cond.policyStatus = checkvalue;
+  cond.policyStatus = ch1.value
 }
 
-if(name == &apos;CONTRACT_CREATED&apos;) {
-  if(checkvalue == &apos;YES&apos;){
+if(ch1.name == &apos;CONTRACT_CREATED&apos;) {
+  if(ch1.value == &apos;YES&apos;){
      cond.contractCreated = true;
   } else {
      cond.contractCreated = false;
