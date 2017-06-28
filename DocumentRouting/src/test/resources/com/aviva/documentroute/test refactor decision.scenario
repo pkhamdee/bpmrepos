@@ -43,6 +43,18 @@
       <name>ch2</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>DocTrxGroup</type>
+      <fieldData>
+        <field-data>
+          <name>name</name>
+          <value>MAIN-DOC-PS</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>docGrp</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>4</executionTimeResult>
       <numberOfRulesFired>2</numberOfRulesFired>
@@ -83,6 +95,9 @@
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.aviva.ezflow.model.documentroute.Conditions</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.aviva.ezflow.model.documentroute.DocTrxGroup</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
