@@ -8,6 +8,7 @@ import java.util.List;
 
 rule "merge checklist to documentroute"
 dialect "mvel"
+salience -99
 when
     $docRoute : DocumentRoute(this != null)
     $docCheckList : $docRoute.docCheckList()
