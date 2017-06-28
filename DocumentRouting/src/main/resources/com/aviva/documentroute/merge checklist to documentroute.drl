@@ -9,9 +9,10 @@ import java.util.List;
 rule "merge checklist to documentroute"
 dialect "mvel"
 when
-    //$docCheckList : DocumentRoute.docCheckList()
+    $docRoute : DocumentRoute(this != null)
+    $docCheckList : $docRoute.docCheckList()
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
-   // $docCheckList.checkList = $items;
+    $docCheckList.checkList = $items;
 
 end
