@@ -12,32 +12,6 @@
   <attributeCols/>
   <conditionPatterns>
     <Pattern52>
-      <factType>DocTrxGroup</factType>
-      <boundName>docgrp</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>Document group</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>name</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-      </conditions>
-      <window>
-        <operator></operator>
-        <parameters/>
-      </window>
-    </Pattern52>
-    <Pattern52>
       <factType>CheckList</factType>
       <boundName>ch1</boundName>
       <isNegated>false</isNegated>
@@ -49,7 +23,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>133</width>
           <header>name1</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
@@ -63,7 +37,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>119</width>
           <header>value1</header>
           <constraintValueType>1</constraintValueType>
           <factField>value</factField>
@@ -83,7 +57,7 @@
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
-          <hideColumn>false</hideColumn>
+          <hideColumn>true</hideColumn>
           <width>-1</width>
           <header>condition</header>
           <constraintValueType>1</constraintValueType>
@@ -94,6 +68,7 @@
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
@@ -102,7 +77,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>policyStatus</header>
+      <header>add to condition</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>cond.policyStatus = checkvalue;</text>
@@ -111,8 +86,8 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>policyStatus</header>
+          <width>135</width>
+          <header>add to condition</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -187,11 +162,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOC-PS</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>POLICY_STATUS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -223,11 +193,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>MAIN-DOC-NB</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
