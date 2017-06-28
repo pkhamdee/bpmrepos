@@ -29,7 +29,7 @@
           <factField>name</factField>
           <operator>==</operator>
           <parameters/>
-          <binding>name</binding>
+          <binding></binding>
         </condition-column52>
         <condition-column52>
           <typedDefaultValue>
@@ -44,7 +44,7 @@
           <factField>value</factField>
           <operator>==</operator>
           <parameters/>
-          <binding>checkvalue</binding>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
