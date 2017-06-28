@@ -20,12 +20,17 @@
       <name>docRoute</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>177</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
           <expected>MAIN-DOC-PS</expected>
+          <successResult>true</successResult>
+          <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-PS].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -34,8 +39,9 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-06-28 08:00:40.580 UTC</lastRunResult>
   <rules/>
-  <inclusive>false</inclusive>
+  <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
   <imports>
     <imports>
