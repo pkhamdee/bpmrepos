@@ -4,6 +4,7 @@ import com.aviva.ezflow.model.documentroute.DocTrxGroup;
 import com.aviva.ezflow.model.documentroute.CheckList;
 import com.aviva.ezflow.model.documentroute.Conditions;
 import com.aviva.ezflow.model.documentroute.Action;
+import com.aviva.ezflow.model.documentroute.Property;
 
 rule "print doctrxgroup"
 dialect "mvel"
@@ -52,4 +53,13 @@ when
 then
     
     System.out.println("found Action ..." +  $item.actionType);
+end
+
+rule "print action property"
+dialect "mvel"
+when
+    $item : Action(actionType != null)
+    $prop : Property() from $item.properties
+then
+    System.out.println("property - " +  $prop.name + "," $prop.value);
 end
