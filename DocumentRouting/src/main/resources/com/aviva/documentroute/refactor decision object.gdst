@@ -1304,7 +1304,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NB_MAIN_PROCESS_EXIST</valueString>
+        <valueString>NB_PROCESS_EXIST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1412,7 +1412,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PS_MAIN_PROCESS_EXIST</valueString>
+        <valueString>PS_PROCESS_EXIST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1520,7 +1520,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CLAIM_MAIN_PROCESS_EXIST</valueString>
+        <valueString>CLAIM_PROCESS_EXIST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
