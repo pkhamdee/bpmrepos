@@ -21,8 +21,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>12</executionTimeResult>
-      <numberOfRulesFired>2</numberOfRulesFired>
+      <executionTimeResult>32</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -31,7 +31,7 @@
           <expected>MAIN-DOC-PS</expected>
           <actualResult>MAIN-DOC-NB</actualResult>
           <successResult>true</successResult>
-          <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-NB].</explanation>
+          <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-PS].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -40,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 04:08:14.728 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 04:08:48.261 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
