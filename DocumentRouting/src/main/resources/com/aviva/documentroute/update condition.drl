@@ -3,6 +3,7 @@ package com.aviva.documentroute;
 import com.aviva.ezflow.model.documentroute.Conditions;
 
 rule "modify condition"
+salience -90
 when
     $conditions: Conditions()
 then
