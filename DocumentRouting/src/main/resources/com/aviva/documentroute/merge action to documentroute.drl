@@ -8,7 +8,7 @@ rule "merge action to documentroute"
 dialect "mvel"
 salience -99
 when
-    $docRoute : DocumentRoute(this != null)
+    $docRoute : DocumentRoute(this != null, routeInfo == null)
     $items : ArrayList( size > 0 ) from collect ( Action( actionType != null) )
 then
     RouteInfo routeInfo = new RouteInfo();
