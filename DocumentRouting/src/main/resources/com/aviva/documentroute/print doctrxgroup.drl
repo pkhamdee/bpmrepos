@@ -3,6 +3,7 @@ package com.aviva.documentroute;
 import com.aviva.ezflow.model.documentroute.DocTrxGroup;
 import com.aviva.ezflow.model.documentroute.CheckList;
 import com.aviva.ezflow.model.documentroute.Conditions;
+import com.aviva.ezflow.model.documentroute.Action;
 
 rule "print doctrxgroup"
 dialect "mvel"
@@ -41,4 +42,13 @@ then
     System.out.println("nSProcessExist = " + $item.pSProcessExist);
     System.out.println("claimProcessExist = " + $item.claimProcessExist);
     System.out.println("policyOnHold = " + $item.policyOnHold);
+end
+
+rule "print action"
+dialect "mvel"
+when
+    $item : Action(actionType != null)
+then
+    
+    System.out.println("found Action ..." +  $item.actionType);
 end
