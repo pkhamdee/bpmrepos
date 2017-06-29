@@ -33,25 +33,32 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>98</executionTimeResult>
-      <numberOfRulesFired>8</numberOfRulesFired>
+      <executionTimeResult>16</executionTimeResult>
+      <numberOfRulesFired>6</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>actionType</fieldName>
           <expected>TRIGGER</expected>
+          <actualResult>No match</actualResult>
+          <successResult>false</successResult>
+          <explanation>Fact of type [Action] was not found in the results.</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Action</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 03:04:01.508 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <lastRunResult>2017-06-29 03:12:56.200 UTC</lastRunResult>
+  <rules>
+    <string>Row 1 set action for main-doc-ps</string>
+    <string>Row 2 set action for main-doc-ps</string>
+    <string>Row 3 set action for main-doc-ps</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
   <imports>
     <imports>
