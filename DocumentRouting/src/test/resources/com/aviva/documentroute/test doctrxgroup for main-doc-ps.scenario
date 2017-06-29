@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>docTypeCd</name>
-          <value>Prop Form</value>
+          <value>SETTLEM</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>transactionTypeCd</name>
-          <value>Proposal Form</value>
+          <value>Cash Benefit Withdraw</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>49</executionTimeResult>
+      <executionTimeResult>12</executionTimeResult>
       <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -30,8 +30,8 @@
           <fieldName>name</fieldName>
           <expected>MAIN-DOC-NB</expected>
           <actualResult>MAIN-DOC-NB</actualResult>
-          <successResult>false</successResult>
-          <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-NB] expected [MAIN-DOC-PS].</explanation>
+          <successResult>true</successResult>
+          <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-NB].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -40,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 04:08:03.223 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 04:08:14.728 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
