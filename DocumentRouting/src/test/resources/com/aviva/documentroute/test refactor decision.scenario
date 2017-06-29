@@ -43,21 +43,9 @@
       <name>ch2</name>
       <isModify>false</isModify>
     </fact-data>
-    <fact-data>
-      <type>DocTrxGroup</type>
-      <fieldData>
-        <field-data>
-          <name>name</name>
-          <value>MAIN-DOC-PS</value>
-          <nature>4</nature>
-        </field-data>
-      </fieldData>
-      <name>docGrp</name>
-      <isModify>false</isModify>
-    </fact-data>
     <execution-trace>
-      <executionTimeResult>4</executionTimeResult>
-      <numberOfRulesFired>2</numberOfRulesFired>
+      <executionTimeResult>98</executionTimeResult>
+      <numberOfRulesFired>8</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -65,17 +53,17 @@
           <fieldName>policyStatus</fieldName>
           <expected>PS</expected>
           <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[cond] field [policyStatus] was [PS].</explanation>
+          <successResult>false</successResult>
+          <explanation>[cond] field [policyStatus] was [] expected [PS].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>contractCreated</fieldName>
           <expected>true</expected>
-          <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[cond] field [contractCreated] was [true].</explanation>
+          <actualResult>false</actualResult>
+          <successResult>false</successResult>
+          <explanation>[cond] field [contractCreated] was [false] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -84,7 +72,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-28 09:41:51.641 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 03:04:01.508 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
