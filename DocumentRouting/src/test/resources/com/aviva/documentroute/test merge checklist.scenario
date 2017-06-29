@@ -46,14 +46,16 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>2</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>14</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>docCheckList</fieldName>
           <expected>null</expected>
+          <successResult>true</successResult>
+          <explanation>[docRoute] field [docCheckList] was not [null].</explanation>
           <operator>!=</operator>
           <nature>1</nature>
         </expect-field>
@@ -62,7 +64,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 04:10:22.219 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 04:14:52.792 UTC</lastRunResult>
   <rules>
     <string>merge checklist to documentroute</string>
   </rules>
