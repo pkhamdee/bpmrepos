@@ -1,5 +1,5 @@
 <scenario>
-  <name>test doctrxgroup for main-doc-ps.scenario</name>
+  <name>test doctrxgroup for main-doc-nb.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -28,7 +28,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
-          <expected>MAIN-DOC-PS</expected>
+          <expected>MAIN-DOC-NB</expected>
           <actualResult>MAIN-DOC-NB</actualResult>
           <successResult>true</successResult>
           <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-PS].</explanation>
