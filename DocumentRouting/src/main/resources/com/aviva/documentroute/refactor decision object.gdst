@@ -100,12 +100,12 @@ cond.policyStatus = ch1.value
 if(ch1.value == &apos;YES&apos;){
      //cond.contractCreated = true;
 modify( cond ) {
-	setContractCreated( true )
+	setContractCreated( true );
 }
   } else {
    //  cond.contractCreated = false;
 modify( cond ) {
-	setContractCreated( false )
+	setContractCreated( false );
 }
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
@@ -271,12 +271,12 @@ if(ch1.value == &apos;YES&apos;){
 if(ch1.value == &apos;YES&apos;){
      //cond.nBProcessExist = true;
 modify( cond ) {
-	setNBProcessExist( true )
+	setNBProcessExist( true );
 }
   } else {
      //cond.nBProcessExist = false;
 modify( cond ) {
-	setNBProcessExist( false )
+	setNBProcessExist( false );
 }
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
