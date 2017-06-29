@@ -11,5 +11,6 @@ when
     $docRoute : DocumentRoute(this != null)
     $checklist : CheckList() from $docRoute.docCheckList.checkList
 then
+    System.out.println("checklist is inserted");
     insert ($checklist);
 end
