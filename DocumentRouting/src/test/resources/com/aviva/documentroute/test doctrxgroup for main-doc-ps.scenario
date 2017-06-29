@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>docTypeCd</name>
-          <value>SETTLEM</value>
+          <value>Assign</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>transactionTypeCd</name>
-          <value>Cash Benefit Withdraw</value>
+          <value>Assignment Request</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
