@@ -112,6 +112,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -121,17 +122,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Prop Form</valueString>
+        <valueString>Claim Form</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Proposal Form</valueString>
+        <valueString>Claim Request</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MAIN-DOC-NB</valueString>
+        <valueString>MAIN-DOC-CLAIM</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
