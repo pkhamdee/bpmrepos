@@ -1,11 +1,13 @@
 package com.aviva.documentroute;
 
-import com.aviva.ezflow.model.documentroute.CheckList;
-import com.aviva.ezflow.model.documentroute.Conditions;
+import com.aviva.ezflow.model.documentroute.CheckList
+import com.aviva.ezflow.model.documentroute.Conditions
+import com.aviva.ezflow.model.documentroute.DocumentRoute
 
 rule "create decision object"
 	dialect "mvel"
 	when
+	    DocumentRoute(docCheckList != null)
 		CheckList(this != null)
 		Conditions( this == null )
 	then
