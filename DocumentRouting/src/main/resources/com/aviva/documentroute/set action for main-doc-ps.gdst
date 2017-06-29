@@ -336,12 +336,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PROCESS_NAME</valueString>
+        <valueString>PROCESSNAME</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NB Main Process</valueString>
+        <valueString>NB Process</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -412,12 +412,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PROCESS_NAME</valueString>
+        <valueString>PROCESSNAME</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NB Main Process</valueString>
+        <valueString>NB Process</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -488,12 +488,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PROCESS_NAME</valueString>
+        <valueString>PROCESSNAME</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NB Main Process</valueString>
+        <valueString>NB Process</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
