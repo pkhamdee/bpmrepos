@@ -11,7 +11,6 @@ when
     $docRoute : DocumentRoute(this != null)
     $items : ArrayList( size > 0 ) from collect ( Action( actionType != null) )
 then
-
     RouteInfo routeInfo = new RouteInfo();
     routeInfo.actionList = $items;
     
