@@ -98,9 +98,15 @@ cond.policyStatus = ch1.value
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;cond.contractCreated = &quot; + ch1.value);
 if(ch1.value == &apos;YES&apos;){
-     cond.contractCreated = true;
+     //cond.contractCreated = true;
+modify( cond ) {
+	setContractCreated( true )
+}
   } else {
-     cond.contractCreated = false;
+   //  cond.contractCreated = false;
+modify( cond ) {
+	setContractCreated( false )
+}
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
@@ -263,9 +269,15 @@ if(ch1.value == &apos;YES&apos;){
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;cond.nBProcessExist  = &quot; + ch1.value);
 if(ch1.value == &apos;YES&apos;){
-     cond.nBProcessExist = true;
+     //cond.nBProcessExist = true;
+modify( cond ) {
+	setNBProcessExist( true )
+}
   } else {
-     cond.nBProcessExist = false;
+     //cond.nBProcessExist = false;
+modify( cond ) {
+	setNBProcessExist( false )
+}
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
