@@ -46,8 +46,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>53</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>2</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -64,9 +64,11 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-27 05:00:14.417 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <lastRunResult>2017-06-29 04:10:22.219 UTC</lastRunResult>
+  <rules>
+    <string>merge checklist to documentroute</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
   <imports>
     <imports>
