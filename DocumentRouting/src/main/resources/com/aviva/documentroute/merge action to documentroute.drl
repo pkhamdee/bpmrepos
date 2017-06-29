@@ -13,6 +13,6 @@ when
 then
     RouteInfo routeInfo = new RouteInfo();
     routeInfo.actionList = $items;
-    
+
     $docRoute.routeInfo = routeInfo;
 end
