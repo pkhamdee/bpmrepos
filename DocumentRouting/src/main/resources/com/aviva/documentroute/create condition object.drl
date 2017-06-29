@@ -6,7 +6,7 @@ import com.aviva.ezflow.model.documentroute.DocumentRoute;
 
 rule "create decision object"
 	dialect "mvel"
-	salience 10
+	salience 99
 	when
 	    DocumentRoute(docCheckList != null)
 	then
