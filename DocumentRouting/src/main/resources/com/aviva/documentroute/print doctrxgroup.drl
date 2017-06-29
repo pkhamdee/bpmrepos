@@ -28,7 +28,7 @@ dialect "mvel"
 when
     $item : Conditions()
 then
-    
+    System.out.println("--------------------------------------------")
     System.out.println("found Conditions ...");
     System.out.println("contractCreated = " + $item.contractCreated);
     System.out.println("policyStatus = " + $item.policyStatus);
@@ -42,6 +42,7 @@ then
     System.out.println("nSProcessExist = " + $item.pSProcessExist);
     System.out.println("claimProcessExist = " + $item.claimProcessExist);
     System.out.println("policyOnHold = " + $item.policyOnHold);
+    System.out.println("--------------------------------------------")
 end
 
 rule "print action"
