@@ -1,2 +1,12 @@
 package com.aviva.documentroute;
 
+import com.aviva.ezflow.model.documentroute.DocTrxGroup;
+
+rule "print doctrxgroup"
+dialect "mvel"
+when
+    $docgrp : DocTrxGroup(name != null)
+then
+    
+    System.out.println("found DocTrxGroup ..." +  $docgrp.name);
+end
