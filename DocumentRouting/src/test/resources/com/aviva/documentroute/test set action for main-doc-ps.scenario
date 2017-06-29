@@ -33,7 +33,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>19</executionTimeResult>
+      <executionTimeResult>23</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -52,7 +52,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 03:15:40.268 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 04:15:47.594 UTC</lastRunResult>
   <rules>
     <string>Row 1 set action for main-doc-ps</string>
     <string>Row 2 set action for main-doc-ps</string>
