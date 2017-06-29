@@ -9,21 +9,7 @@
     <width>-1</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <attribute>salience</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>CheckList</factType>
@@ -434,12 +420,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>POLICY_STATUS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -539,12 +519,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -650,12 +624,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>DISPATCH_DATE</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -755,12 +723,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -866,12 +828,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>POLICY_HOLDER_RECEIVED</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -971,12 +927,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1082,12 +1032,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>INCIDENT_RECEIVED</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1187,12 +1131,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1298,12 +1236,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>NB_PROCESS_EXIST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1403,12 +1335,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1514,12 +1440,6 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>CLAIM_PROCESS_EXIST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1619,12 +1539,6 @@ if(ch1.value == &apos;YES&apos;){
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">90</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
