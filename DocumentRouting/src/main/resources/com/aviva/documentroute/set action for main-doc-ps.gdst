@@ -178,7 +178,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>120</width>
-      <header>Name1</header>
+      <header>Property1-Name</header>
       <factType>Property</factType>
       <boundName>prop1</boundName>
       <factField>name</factField>
@@ -193,7 +193,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Value1</header>
+      <header>Property1-Value</header>
       <factType>Property</factType>
       <boundName>prop1</boundName>
       <factField>value</factField>
@@ -203,7 +203,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>add prop1</header>
+      <header>Add Property1</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
           <fieldValues>
@@ -224,7 +224,7 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>add prop1</header>
+          <header>Add Property1</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -238,7 +238,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>name2</header>
+      <header>Property2-Name</header>
       <factType>Property</factType>
       <boundName>prop2</boundName>
       <factField>name</factField>
@@ -253,7 +253,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>value2</header>
+      <header>Property2-Value</header>
       <factType>Property</factType>
       <boundName>prop2</boundName>
       <factField>value</factField>
@@ -263,7 +263,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>add prop2</header>
+      <header>Add Property2</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
           <fieldValues>
@@ -284,7 +284,7 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>add prop2</header>
+          <header>Add Property2</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
