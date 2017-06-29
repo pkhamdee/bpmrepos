@@ -34,9 +34,9 @@
         <condition-column52>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>value</header>
+          <header>has value</header>
           <constraintValueType>1</constraintValueType>
-          <factField>has value</factField>
+          <factField>value</factField>
           <fieldType>String</fieldType>
           <operator>!= null</operator>
           <parameters/>
