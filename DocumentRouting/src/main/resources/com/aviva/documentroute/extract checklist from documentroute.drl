@@ -1,2 +1,11 @@
 package com.aviva.documentroute;
 
+rule "merge action to documentroute"
+dialect "mvel"
+salience 100
+when
+    $docRoute : DocumentRoute(this != null)
+    $checklist : CheckList from DocumentRoute.docCheckList.checkList
+then
+    insert ($checklist);
+end
