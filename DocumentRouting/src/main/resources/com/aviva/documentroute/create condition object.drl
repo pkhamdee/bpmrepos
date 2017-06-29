@@ -8,7 +8,7 @@ rule "create decision object"
 	dialect "mvel"
 	salience 100
 	when
-	    DocumentRoute(this != null, docCheckList != null)
+	    DocumentRoute(docCheckList != null)
 	then
 	    System.out.println("create decision object...");
 		insert(new Conditions());
