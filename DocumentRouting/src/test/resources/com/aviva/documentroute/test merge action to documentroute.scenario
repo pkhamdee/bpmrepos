@@ -21,20 +21,26 @@
       <name>docRoute</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>15</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>routeInfo</fieldName>
           <expected>null</expected>
+          <successResult>true</successResult>
+          <explanation>[docRoute] field [routeInfo] was not [null].</explanation>
           <operator>!=</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>docRoute</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-06-29 04:23:49.618 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aviva.documentroute</packageName>
