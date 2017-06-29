@@ -21,8 +21,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>17</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>36</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -40,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 08:32:07.677 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 08:33:52.804 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
