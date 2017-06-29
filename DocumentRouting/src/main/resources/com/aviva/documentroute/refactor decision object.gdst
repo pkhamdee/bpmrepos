@@ -98,16 +98,10 @@ cond.policyStatus = ch1.value
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;cond.contractCreated = &quot; + ch1.value);
 if(ch1.value == &apos;YES&apos;){
-     //cond.contractCreated = true;
-modify( cond ) {
-	setContractCreated( true );
-}
+     cond.contractCreated = true;
   } else {
-   //  cond.contractCreated = false;
-modify( cond ) {
-	setContractCreated( false );
-}
-  }</text>
+   cond.contractCreated = false;
+ }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -269,11 +263,9 @@ if(ch1.value == &apos;YES&apos;){
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;cond.nBProcessExist  = &quot; + ch1.value);
 if(ch1.value == &apos;YES&apos;){
-     //cond.nBProcessExist = true;
-     modify( cond ) { setnBProcessExist( true ) }
+     cond.nBProcessExist = true;
   } else {
-     //cond.nBProcessExist = false;
-     modify( cond ) { setnBProcessExist( false ) }
+     cond.nBProcessExist = false;
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
