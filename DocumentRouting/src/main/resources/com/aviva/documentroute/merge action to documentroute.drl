@@ -1,2 +1,15 @@
 package com.aviva.documentroute;
 
+rule "merge action to documentroute"
+dialect "mvel"
+salience -99
+when
+    $docRoute : DocumentRoute(this != null)
+    $items : ArrayList( size > 0 ) from collect ( Action( actionType != null) )
+then
+
+    RouteInfo routeInfo = new RouteInfo();
+    routeInfo.actionList = $items;
+    
+    $docRoute.routeInfo = routeInfo;
+end
