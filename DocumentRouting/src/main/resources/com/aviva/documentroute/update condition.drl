@@ -1,2 +1,10 @@
 package com.aviva.documentroute;
 
+import com.aviva.ezflow.model.documentroute.Conditions;
+
+rule "modify condition"
+when
+    $conditions: Conditions()
+then
+    update($conditions);
+end
