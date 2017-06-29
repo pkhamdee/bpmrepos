@@ -127,7 +127,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CASH-BENEFIT-WITHDRAW</valueString>
+        <valueString>Cash Benefit Withdraw</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -150,12 +150,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ASSIGN</valueString>
+        <valueString>Assign</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ASSIGNMENT-REQUEST</valueString>
+        <valueString>Assignment Request</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
