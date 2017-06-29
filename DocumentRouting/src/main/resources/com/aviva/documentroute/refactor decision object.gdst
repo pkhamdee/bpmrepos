@@ -269,15 +269,9 @@ if(ch1.value == &apos;YES&apos;){
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>System.out.println(&quot;cond.nBProcessExist  = &quot; + ch1.value);
 if(ch1.value == &apos;YES&apos;){
-     //cond.nBProcessExist = true;
-modify( cond ) {
-	setNBProcessExist( true );
-}
+     cond.nBProcessExist = true;
   } else {
-     //cond.nBProcessExist = false;
-modify( cond ) {
-	setNBProcessExist( false );
-}
+     cond.nBProcessExist = false;
   }</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
