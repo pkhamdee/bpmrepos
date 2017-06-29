@@ -1,6 +1,7 @@
 package com.aviva.documentroute;
 
 import com.aviva.ezflow.model.documentroute.DocTrxGroup;
+import com.aviva.ezflow.model.documentroute.CheckList;
 
 rule "print doctrxgroup"
 dialect "mvel"
@@ -9,4 +10,13 @@ when
 then
     
     System.out.println("found DocTrxGroup ..." +  $docgrp.name);
+end
+
+rule "print checklist"
+dialect "mvel"
+when
+    $item : CheckList(name != null)
+then
+    
+    System.out.println("found CheckList ..." +  $item.name + "," +  $item.value);
 end
