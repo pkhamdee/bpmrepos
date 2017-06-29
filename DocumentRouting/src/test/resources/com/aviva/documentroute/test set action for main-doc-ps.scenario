@@ -32,9 +32,15 @@
       <name>docgrp</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>DocumentRoute</type>
+      <fieldData/>
+      <name>docRoute</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
-      <executionTimeResult>52</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>64</executionTimeResult>
+      <numberOfRulesFired>10</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -52,7 +58,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 18:57:08.726 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 19:07:12.736 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
