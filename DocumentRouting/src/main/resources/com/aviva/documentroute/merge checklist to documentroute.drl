@@ -13,7 +13,6 @@ when
     $docRoute : DocumentRoute(this != null, docCheckList == null)
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
-    System.out.println("hello");
     DocCheckList docCheckList = new DocCheckList();
     docCheckList.checkList = $items;
     $docRoute.docCheckList = docCheckList;
