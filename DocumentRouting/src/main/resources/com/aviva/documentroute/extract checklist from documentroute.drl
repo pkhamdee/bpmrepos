@@ -6,7 +6,7 @@ import com.aviva.ezflow.model.documentroute.DocCheckList;
 
 rule "extract checklist from documentroute"
 dialect "mvel"
-salience 99
+salience 100
 when
     $docRoute : DocumentRoute(this != null, docCheckList != null)
     $checklist : CheckList( value != null) from $docRoute.docCheckList.checkList
