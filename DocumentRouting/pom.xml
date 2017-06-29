@@ -7,14 +7,6 @@
   <version>1.0.3-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>DocumentRouting</name>
-  <dependencies>
-    <dependency>
-      <groupId>com.aviva.ezflow</groupId>
-      <artifactId>bpms-model</artifactId>
-      <version>0.0.10</version>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
