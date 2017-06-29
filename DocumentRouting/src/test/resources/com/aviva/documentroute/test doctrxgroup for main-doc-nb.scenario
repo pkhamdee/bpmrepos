@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>47</executionTimeResult>
+      <executionTimeResult>56</executionTimeResult>
       <numberOfRulesFired>7</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -40,7 +40,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 20:39:51.89 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 21:03:11.827 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
@@ -55,6 +55,6 @@
     </imports>
   </imports>
   <ksessions>
-    <string>defaultKieSession</string>
+    <string>statefullsession</string>
   </ksessions>
 </scenario>
