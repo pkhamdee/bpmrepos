@@ -122,12 +122,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PROPOSAL</valueString>
+        <valueString>Prop Form</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PROPOSAL-FORM</valueString>
+        <valueString>Proposal Form</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
