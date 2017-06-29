@@ -9,21 +9,7 @@
     <width>-1</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueNumeric class="int">100</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <attribute>salience</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>DocumentRoute</factType>
@@ -136,12 +122,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">100</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>SETTLEM</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -167,12 +147,6 @@
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">100</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
