@@ -7,13 +7,13 @@
       <type>Conditions</type>
       <fieldData>
         <field-data>
-          <name>policyStatus</name>
-          <value>PS</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
           <name>nBProcessExist</name>
           <value>true</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>contractCreated</name>
+          <value>false</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
