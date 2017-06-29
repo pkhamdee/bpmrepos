@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>docTypeCd</name>
-          <value>Assign</value>
+          <value>Prop Form</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>transactionTypeCd</name>
-          <value>Assignment Request</value>
+          <value>Proposal Form</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
