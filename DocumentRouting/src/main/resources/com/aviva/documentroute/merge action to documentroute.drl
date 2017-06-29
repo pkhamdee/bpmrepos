@@ -11,6 +11,8 @@ when
     $docRoute : DocumentRoute(this != null, routeInfo == null)
     $items : ArrayList( size > 0 ) from collect ( Action( actionType != null) )
 then
+    System.out.println("merge action to documentroute");
+
     RouteInfo routeInfo = new RouteInfo();
     routeInfo.actionList = $items;
 
