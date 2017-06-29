@@ -14,7 +14,7 @@ when
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
     
-    System.out.println("merge checklist to documentroute....");
+    System.out.println("merge checklist to documentroute...." +  $items.size);
     
     DocCheckList docCheckList = new DocCheckList();
     docCheckList.checkList = $items;
