@@ -51,7 +51,6 @@ dialect "mvel"
 when
     $item : Action(actionType != null)
 then
-    
     System.out.println("found Action ..." +  $item.actionType);
 end
 
@@ -61,5 +60,5 @@ when
     $item : Action(actionType != null)
     $prop : Property() from $item.properties
 then
-    System.out.println("property - " +  $prop.name + "," $prop.value);
+    System.out.println("property - " +  $prop.name + "," + $prop.value);
 end
