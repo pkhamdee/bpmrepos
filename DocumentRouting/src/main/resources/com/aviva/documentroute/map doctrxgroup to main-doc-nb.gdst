@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>map doctrxgroup to main-doc-for-nb</tableName>
+  <tableName>map doctrxgroup to main-doc-nb</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
@@ -112,7 +112,6 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
