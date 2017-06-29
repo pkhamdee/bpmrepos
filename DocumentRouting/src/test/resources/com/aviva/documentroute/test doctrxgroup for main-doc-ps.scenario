@@ -28,7 +28,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
-          <expected>MAIN-DOC-NB</expected>
+          <expected>MAIN-DOC-PS</expected>
           <actualResult>MAIN-DOC-NB</actualResult>
           <successResult>true</successResult>
           <explanation>[DocTrxGroup] field [name] was [MAIN-DOC-NB].</explanation>
