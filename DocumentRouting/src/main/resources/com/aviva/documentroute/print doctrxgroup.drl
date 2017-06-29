@@ -2,6 +2,7 @@ package com.aviva.documentroute;
 
 import com.aviva.ezflow.model.documentroute.DocTrxGroup;
 import com.aviva.ezflow.model.documentroute.CheckList;
+import com.aviva.ezflow.model.documentroute.Conditions;
 
 rule "print doctrxgroup"
 dialect "mvel"
@@ -19,4 +20,25 @@ when
 then
     
     System.out.println("found CheckList ..." +  $item.name + "," +  $item.value);
+end
+
+rule "print conditions"
+dialect "mvel"
+when
+    $item : Conditions()
+then
+    
+    System.out.println("found Conditions ...");
+    System.out.println("contractCreated = " + $item.contractCreated);
+    System.out.println("policyStatus = " + $item.policyStatus);
+    System.out.println("dispatchDate = " + $item.dispatchDate);
+    System.out.println("policyAckReceived = " + $item.policyAckReceived);
+    System.out.println("policyHolderReceived = " + $item.policyHolderReceived);
+    System.out.println("pompliantReceived = " + $item.compliantReceived);
+    System.out.println("incidentReceived = " + $item.incidentReceived);
+    System.out.println("cCNeedSupport = " + $item.cCNeedSupport);
+    System.out.println("nBProcessExist = " + $item.nBProcessExist);
+    System.out.println("nSProcessExist = " + $item.pSProcessExist);
+    System.out.println("claimProcessExist = " + $item.claimProcessExist);
+    System.out.println("policyOnHold = " + $item.policyOnHold);
 end
