@@ -6,15 +6,6 @@ import com.aviva.ezflow.model.documentroute.DocCheckList;
 import java.util.ArrayList;
 import java.util.List;
 
-rule "init DocCheckList"
-dialect "mvel"
-salience -90
-when
-    DocCheckList(this == null)
-then
-    insert(new DocCheckList());
-end
-
 rule "merge checklist to documentroute"
 dialect "mvel"
 salience -99
@@ -22,6 +13,7 @@ when
     $docRoute : DocumentRoute(this != null)
     $items : ArrayList( size > 0 ) from collect ( CheckList( name != null) )
 then
+    $docRoute.docCheckList = new DocCheckList();
     $docRoute.docCheckList.checkList = $items;
 
 end
