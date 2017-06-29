@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>MAIN-DOC-FOR-PS</value>
+          <value>MAIN-DOC-NB</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -40,7 +40,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>actionType</fieldName>
-          <expected>JOIN_PROCESS</expected>
+          <expected>TRIGGER</expected>
           <actualResult>No match</actualResult>
           <successResult>true</successResult>
           <explanation>[Action] field [actionType] was [JOIN_PROCESS].</explanation>
@@ -55,7 +55,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
-          <expected>PROCESS_NAME</expected>
+          <expected>PROCESSNAME</expected>
           <actualResult>No match</actualResult>
           <successResult>true</successResult>
           <explanation>[Property] field [name] was [PROCESS_NAME].</explanation>
@@ -64,7 +64,7 @@
         </expect-field>
         <expect-field>
           <fieldName>value</fieldName>
-          <expected>NB Main Process</expected>
+          <expected>NB Process</expected>
           <actualResult>No match</actualResult>
           <successResult>true</successResult>
           <explanation>[Property] field [value] was [NB Main Process].</explanation>
