@@ -9,7 +9,7 @@ dialect "mvel"
 salience 100
 when
     $docRoute : DocumentRoute(this != null)
-    $checklist : CheckList from $docRoute.docCheckList.checkList
+    $checklist : CheckList() from $docRoute.docCheckList.checkList
 then
     insert ($checklist);
 end
