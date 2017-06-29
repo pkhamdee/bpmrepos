@@ -4,6 +4,7 @@ import com.aviva.ezflow.model.documentroute.Conditions;
 
 rule "modify condition"
 salience -90
+no-loop true
 when
     $conditions: Conditions()
 then
