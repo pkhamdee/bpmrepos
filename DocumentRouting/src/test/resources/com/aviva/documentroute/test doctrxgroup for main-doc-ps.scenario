@@ -41,7 +41,9 @@
     </expect-fact>
   </fixtures>
   <lastRunResult>2017-06-29 08:14:50.139 UTC</lastRunResult>
-  <rules/>
+  <rules>
+    <string>Row 2 map doctrxgroup to main-doc-for-ps</string>
+  </rules>
   <inclusive>true</inclusive>
   <packageName>com.aviva.documentroute</packageName>
   <imports>
