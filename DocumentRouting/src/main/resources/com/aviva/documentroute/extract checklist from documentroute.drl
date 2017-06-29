@@ -2,6 +2,7 @@ package com.aviva.documentroute;
 
 import com.aviva.ezflow.model.documentroute.DocumentRoute;
 import com.aviva.ezflow.model.documentroute.CheckList;
+import com.aviva.ezflow.model.documentroute.DocCheckList;
 
 rule "extract checklist from documentroute"
 dialect "mvel"
