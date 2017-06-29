@@ -81,6 +81,6 @@
     </imports>
   </imports>
   <ksessions>
-    <string>defaultKieSession</string>
+    <string>statefullsession</string>
   </ksessions>
 </scenario>
