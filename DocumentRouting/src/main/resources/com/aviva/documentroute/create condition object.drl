@@ -8,8 +8,6 @@ rule "create decision object"
 	dialect "mvel"
 	when
 	    DocumentRoute(docCheckList != null)
-		CheckList(this != null)
-		Conditions( this == null )
 	then
 	    System.out.println("create decision object...");
 		insert(new Conditions());
