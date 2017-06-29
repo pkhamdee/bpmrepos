@@ -33,8 +33,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>2</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>19</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -42,8 +42,8 @@
           <fieldName>actionType</fieldName>
           <expected>TRIGGER</expected>
           <actualResult>No match</actualResult>
-          <successResult>false</successResult>
-          <explanation>Fact of type [Action] was not found in the results.</explanation>
+          <successResult>true</successResult>
+          <explanation>[Action] field [actionType] was [TRIGGER].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -52,7 +52,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-06-29 03:15:24.264 UTC</lastRunResult>
+  <lastRunResult>2017-06-29 03:15:40.268 UTC</lastRunResult>
   <rules>
     <string>Row 1 set action for main-doc-ps</string>
     <string>Row 2 set action for main-doc-ps</string>
