@@ -12,7 +12,7 @@ when
     $docgrp : DocTrxGroup(name != null)
 then
     
-    System.out.println("found DocTrxGroup ..." +  $docgrp.name);
+    System.out.println("DocTrxGroup - " +  $docgrp.name);
 end
 
 rule "print checklist"
@@ -21,7 +21,7 @@ when
     $item : CheckList(name != null)
 then
     
-    System.out.println("found CheckList ..." +  $item.name + "," +  $item.value);
+    System.out.println("CheckList - " +  $item.name + "," +  $item.value);
 end
 
 rule "print conditions"
@@ -51,7 +51,7 @@ dialect "mvel"
 when
     $item : Action(actionType != null)
 then
-    System.out.println("found Action ..." +  $item.actionType);
+    System.out.println("Action type - " +  $item.actionType);
 end
 
 rule "print action property"
