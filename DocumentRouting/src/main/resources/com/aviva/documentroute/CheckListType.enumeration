@@ -2,3 +2,4 @@
 'DocTrxGroup.name' : ['MAIN-DOC-NB','MAIN-DOC-PS','MAIN-DOC-CLAIM','MAIN-DOC-CC','SUPDOC-SHARE-NB-PS','SUPDOC-NB-PSMAINTRX','SUPDOC-SHARE-NB-PS-CLAIM','SUPDOC-SHARE-NB-CLAIM-PSMAINFORM','SUPDOC-SHARE-PS-CLAIM','SUPDOC-NB','SUPDOC-PS','SUPDOC-CLAIM']
 'Action.actionType' : ['TRIGGER','JOIN']
 'Property.name' : ['PROCESSNAME','PATHCODE']
+'DocumentRoute.docTypeCd' : ['Prop Form','Assign','SETTLEM','Policy Chg','Reinstatement Req','Loan','Chg Frequency','Claim Form','ACK Signed','Service Req-CLT','Service Req','Complaint-CLT','Complaint','Incident Rep-CLT','Incident Rep','FINST','QUEST','SUPPST','ALT','Chg Pers Details','NOB','Cancel','Health Delt','FATCA','Policy Cert','Policy Chg','Chg Pers Details','Pay/Adj/Bill','DOB','ACK Req','Correspondence','Misc','Med Rep','IDENT','Policy Cert']
