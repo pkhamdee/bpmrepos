@@ -54,7 +54,7 @@
         <condition-column52>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>condition</header>
+          <header>set condition</header>
           <constraintValueType>1</constraintValueType>
           <factField>this</factField>
           <fieldType>this</fieldType>
