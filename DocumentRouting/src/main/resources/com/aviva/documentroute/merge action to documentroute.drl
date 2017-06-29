@@ -1,5 +1,9 @@
 package com.aviva.documentroute;
 
+import com.aviva.ezflow.model.documentroute.RouteInfo;
+import com.aviva.ezflow.model.documentroute.Action;
+import com.aviva.ezflow.model.documentroute.RouteInfo;
+
 rule "merge action to documentroute"
 dialect "mvel"
 salience -99
