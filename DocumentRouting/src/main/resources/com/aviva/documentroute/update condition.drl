@@ -8,5 +8,6 @@ no-loop true
 when
     $conditions: Conditions()
 then
+    System.out.println("update condtion...")
     update($conditions);
 end
