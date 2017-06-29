@@ -55,7 +55,7 @@
           <fieldName>docCheckList</fieldName>
           <expected>null</expected>
           <operator>!=</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>docRoute</name>
