@@ -420,7 +420,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_STATUS</valueString>
+        <valueString>policyStatus</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -522,7 +522,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CONTRACT_CREATED</valueString>
+        <valueString>contractCreated</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -624,7 +624,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>DISPATCH_DATE</valueString>
+        <valueString>dispatchDate</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -726,7 +726,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_ACK_RECEIVED</valueString>
+        <valueString>policyAckReceived</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -828,7 +828,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_HOLDER_RECEIVED</valueString>
+        <valueString>policyHolderReceived</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -930,7 +930,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>COMPLIANT_RECEIVED</valueString>
+        <valueString>compliantReceived</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1032,7 +1032,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>INCIDENT_RECEIVED</valueString>
+        <valueString>incidentReceived</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1134,7 +1134,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CC_NEED_SUPPORT</valueString>
+        <valueString>cCNeedSupport</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1236,7 +1236,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NB_PROCESS_EXIST</valueString>
+        <valueString>nBProcessExist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1338,7 +1338,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>PS_PROCESS_EXIST</valueString>
+        <valueString>pSProcessExist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1440,7 +1440,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CLAIM_PROCESS_EXIST</valueString>
+        <valueString>claimProcessExist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1542,7 +1542,7 @@ if(ch1.value == &apos;YES&apos;){
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>POLICY_ONHOLD</valueString>
+        <valueString>policyOnHold</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
