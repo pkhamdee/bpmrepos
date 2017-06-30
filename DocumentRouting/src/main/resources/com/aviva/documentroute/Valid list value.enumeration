@@ -1,4 +1,4 @@
-'CheckList.name' : ['POLICY_STATUS','CONTRACT_CREATED','DISPATCH_DATE','POLICY_ACK_RECEIVED','POLICY_HOLDER_RECEIVED','COMPLIANT_RECEIVED','INCIDENT_RECEIVED','CC_NEED_SUPPORT','NB_PROCESS_EXIST','PS_PROCESS_EXIST','CLAIM_PROCESS_EXIST','POLICY_ONHOLD']
+'CheckList.name' : ['policyStatus','contractCreated','dispatchDate','policyAckReceived','policyHolderReceived','compliantReceived','incidentReceived','cCNeedSupport','nBProcessExist','pSProcessExist','claimProcessExist','policyOnHold']
 'DocTrxGroup.name' : ['MAIN-DOC-NB','MAIN-DOC-PS','MAIN-DOC-CLAIM','MAIN-DOC-CC','SUPDOC-SHARE-NB-PS','SUPDOC-NB-PSMAINTRX','SUPDOC-SHARE-NB-PS-CLAIM','SUPDOC-SHARE-NB-CLAIM-PSMAINFORM','SUPDOC-SHARE-PS-CLAIM','SUPDOC-NB','SUPDOC-PS','SUPDOC-CLAIM']
 'Action.actionType' : ['TRIGGER','JOIN']
 'Property.name' : ['PROCESSNAME','PATHCODE']
