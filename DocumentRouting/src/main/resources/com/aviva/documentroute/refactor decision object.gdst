@@ -74,26 +74,9 @@
       <width>-1</width>
       <header>update to condition</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>reflectField</field>
-              <value>aaa</value>
-              <nature>3</nature>
-              <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>reflectField</field>
-              <nature>0</nature>
-              <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-          </fieldValues>
-          <variable>cond</variable>
-          <state>1</state>
-          <methodName>reflectField</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>cond.reflectField(ch1.nam, ch1.value);</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
