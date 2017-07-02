@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>CONTRACT_CREATED</value>
+          <value>contractCreated</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -31,7 +31,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>POLICY_STATUS</value>
+          <value>policyStatus</value>
           <nature>4</nature>
         </field-data>
         <field-data>
