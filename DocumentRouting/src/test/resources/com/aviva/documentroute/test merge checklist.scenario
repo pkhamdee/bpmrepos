@@ -14,7 +14,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>POLICY_STATUS</value>
+          <value>contractCreated</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -26,7 +26,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>CONTRACT_CREATED</value>
+          <value>policyStatus</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -38,7 +38,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>DISPATCH_DATE</value>
+          <value>dispatchDate</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
