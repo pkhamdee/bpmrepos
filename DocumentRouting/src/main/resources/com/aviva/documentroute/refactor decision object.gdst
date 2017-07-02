@@ -78,15 +78,14 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>reflectField</field>
-              <value>&apos;ch1.name&apos;</value>
-              <nature>1</nature>
+              <value>aaa</value>
+              <nature>3</nature>
               <type>String</type>
               <method></method>
             </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>reflectField</field>
-              <value>ch1.value</value>
-              <nature>1</nature>
+              <nature>0</nature>
               <type>String</type>
               <method></method>
             </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
