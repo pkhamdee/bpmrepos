@@ -75,7 +75,8 @@
       <header>update to condition</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>cond.reflectField(ch1.name, ch1.value);</text>
+          <text>System.out.println(&quot;set name=&quot; + ch1.name + &quot;, value=&quot;+ ch1.value);
+cond.reflectField(ch1.name, ch1.value);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
