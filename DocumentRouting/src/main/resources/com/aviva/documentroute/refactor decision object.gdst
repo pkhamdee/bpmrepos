@@ -78,7 +78,7 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>reflectField</field>
-              <value>ch1.name</value>
+              <value>&apos;ch1.name&apos;</value>
               <nature>1</nature>
               <type>String</type>
               <method></method>
